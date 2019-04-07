@@ -5,6 +5,6 @@ while N > 0:
     d = N % 10
     if d != 1:
         R = R + d*T
-        T = T + 1
+        T = T * 10
     N = N // 10
-print(T)
+print(R)
